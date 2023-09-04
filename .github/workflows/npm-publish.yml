@@ -20,7 +20,7 @@ jobs:
       - run: npm install
       - run: npm run build --if-present
 
-      - uses: mr-smithers-excellent/docker-build-push@v6
+      - uses: soohoe0502/docker-build-push@v6
         with:
             image: soohoe0502/youtubereactapp
             registry: docker.io
