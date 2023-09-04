@@ -7,8 +7,8 @@ services:
   - docker
 
 before_install:
-  - docker build -t nawaf83/youtube-stats -f Dockerfile.dev .
+  - docker build -t soohoe/youtube-stats -f Dockerfile.dev .
   
 script:
-  - docker run nawaf83/youtube-stats npm run build
+  - docker run soohoe/youtube-stats npm run build
   
